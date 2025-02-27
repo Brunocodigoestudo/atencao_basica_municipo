@@ -1,0 +1,41 @@
+version: 2
+
+sources:
+  - name: projeto_saude
+    schema: public
+    tables:
+      - name: tb_atencao_basica_municipio
+        description: "Tabela contendo informações sobre a atenção básica nos municípios."
+        columns:
+          - name: ano
+            description: "Ano de referência dos dados."
+          - name: mes
+            description: "Mês de referência dos dados."
+          - name: sigla_uf
+            description: "UF do município."
+          - name: id_municipio
+            description: "Código IBGE do município (7 dígitos)."
+          - name: id_municipio_6
+            description: "Código IBGE do município (6 dígitos, sem o dígito verificador)."
+          - name: populacao
+            description: "População estimada do município no ano de referência."
+          - name: carga_horaria_enfermagem_atencao_basica_tradicional
+            description: "Carga horária total dos profissionais de enfermagem na atenção básica tradicional."
+          - name: carga_horaria_medica_atencao_basica_tradicional
+            description: "Carga horária total dos médicos na atenção básica tradicional."
+          - name: quantidade_equipes_atencao_basica_equivalente
+            description: "Quantidade de equipes de atenção básica equivalente no município."
+          - name: quantidade_equipes_atencao_basica_parametrizada
+            description: "Quantidade de equipes de atenção básica parametrizada no município."
+          - name: quantidade_equipes_saude_familia
+            description: "Quantidade de equipes de saúde da família no município."
+          - name: quantidade_equipes__atencao_basica_total
+            description: "Quantidade total de equipes de atenção básica no município."
+          - name: populacao_coberta_estrategia_saude_familia
+            description: "População coberta pela Estratégia Saúde da Família no município."
+          - name: proporcao_cobertura_estrategia_saude_familia
+            description: "Proporção da população coberta pela Estratégia Saúde da Família em relação à população total do município."
+          - name: populacao_coberta_total_atencao_basica
+            description: "População total coberta pela atenção básica no município."
+          - name: proporcao_cobertura_total_atencao_basica
+            description: "Proporção da população coberta pela atenção básica em relação à população total do município."
