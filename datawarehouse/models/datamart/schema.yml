@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: dm_atencao_basica_municipio
-    description: "Description of the model"    
+    description: "Regra de negocio de 2018 pra frente."    
     columns:
       - name: ano
         description: "Ano de referência dos dados."
