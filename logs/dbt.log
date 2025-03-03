@@ -316,3 +316,520 @@ Runtime Error
 [0m19:23:21.254305 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C451411640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4509815E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C450980800>]}
 [0m19:23:21.255307 [debug] [MainThread]: Flushing usage events
 [0m19:23:21.912735 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:29:28.680846 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BEC5554C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BEC8486750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BECAE63680>]}
+
+
+============================== 19:29:28.685852 | f8af3d93-aae0-4802-b9d5-c4afb172da0c ==============================
+[0m19:29:28.685852 [info ] [MainThread]: Running with dbt=1.9.2
+[0m19:29:28.686973 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:29:28.687979 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Bruno\Desktop\projetos_engenharia\projeto_atencao_basica_municipio\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m19:29:28.689976 [debug] [MainThread]: Command `dbt run` failed at 19:29:28.689976 after 0.15 seconds
+[0m19:29:28.689976 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BECA843020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BECA733020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BECA702120>]}
+[0m19:29:28.690975 [debug] [MainThread]: Flushing usage events
+[0m19:29:29.490328 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:59:09.919908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F8952DB80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F8C9DA660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F8A3FA000>]}
+
+
+============================== 20:59:09.927465 | bc552f38-30d6-4e47-be0f-be38d796ac4d ==============================
+[0m20:59:09.927465 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:59:09.928463 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:59:09.929464 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Bruno\Desktop\projetos_engenharia\projeto_atencao_basica_municipio\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:59:09.930465 [debug] [MainThread]: Command `dbt run` failed at 20:59:09.930465 after 0.15 seconds
+[0m20:59:09.930465 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F8CB39880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F8AA46300>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F8CC0E690>]}
+[0m20:59:09.931472 [debug] [MainThread]: Flushing usage events
+[0m20:59:10.682030 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:59:27.276275 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B3533C4C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B358B8C8C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B358B8FB30>]}
+
+
+============================== 20:59:27.280939 | 3d6a9526-ac36-4640-8bfc-81990b0004d8 ==============================
+[0m20:59:27.280939 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:59:27.281932 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:59:27.281932 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Bruno\Desktop\projetos_engenharia\projeto_atencao_basica_municipio\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:59:27.282942 [debug] [MainThread]: Command `dbt run` failed at 20:59:27.282942 after 0.10 seconds
+[0m20:59:27.283939 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B358B8FB30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B358B8C8C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B358DDDA00>]}
+[0m20:59:27.283939 [debug] [MainThread]: Flushing usage events
+[0m20:59:27.920715 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:01:26.920395 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002036CB20200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002036FC67680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002036FC66990>]}
+
+
+============================== 21:01:26.924396 | 3e29928c-bef5-4c5f-a774-a1d7795276f2 ==============================
+[0m21:01:26.924396 [info ] [MainThread]: Running with dbt=1.9.2
+[0m21:01:26.925401 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:01:26.926395 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Bruno\Desktop\projetos_engenharia\projeto_atencao_basica_municipio\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:01:26.927393 [debug] [MainThread]: Command `dbt run` failed at 21:01:26.927393 after 0.14 seconds
+[0m21:01:26.928397 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002036F564590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002036F8F6540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002036FC9D580>]}
+[0m21:01:26.929490 [debug] [MainThread]: Flushing usage events
+[0m21:01:27.713847 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:18:26.040761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B5BE079970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B5BE0CA540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B5BE2E2990>]}
+
+
+============================== 09:18:26.048529 | 4364ce1b-e8cc-4cb3-8c27-f1a408bae8c9 ==============================
+[0m09:18:26.048529 [info ] [MainThread]: Running with dbt=1.9.2
+[0m09:18:26.049294 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m09:18:26.050298 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Bruno\Desktop\projetos_engenharia\projeto_atencao_basica_municipio\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m09:18:26.051294 [debug] [MainThread]: Command `dbt run` failed at 09:18:26.051294 after 0.16 seconds
+[0m09:18:26.052296 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B5BE4B7CE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B5BE751640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B5BE674380>]}
+[0m09:18:26.052296 [debug] [MainThread]: Flushing usage events
+[0m09:18:26.863908 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:17:52.890728 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001759B16DDC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001759B16F050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001759AF2B6E0>]}
+
+
+============================== 10:17:52.894736 | aa3f8041-11be-4685-8928-481f98c2445a ==============================
+[0m10:17:52.894736 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:17:52.895741 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m10:17:52.896731 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Bruno\Desktop\projetos_engenharia\projeto_atencao_basica_municipio\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:17:52.897739 [debug] [MainThread]: Command `dbt run` failed at 10:17:52.897739 after 0.14 seconds
+[0m10:17:52.898743 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001759B16DDC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001759A660AA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001759A663CE0>]}
+[0m10:17:52.898743 [debug] [MainThread]: Flushing usage events
+[0m10:17:53.558233 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:20:54.500412 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC47D5CAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC47D5E1B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC47D5F4D0>]}
+
+
+============================== 10:20:54.505821 | fc33675c-f85d-428d-8bc8-9d95c1bed657 ==============================
+[0m10:20:54.505821 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:20:54.506826 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'c:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'debug': 'False', 'warn_error': 'None', 'log_path': 'c:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt ', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:20:54.622328 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'fc33675c-f85d-428d-8bc8-9d95c1bed657', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC476A5160>]}
+[0m10:20:54.659178 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:20:54.661172 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:20:54.662182 [debug] [MainThread]: Command `cli deps` succeeded at 10:20:54.662182 after 0.29 seconds
+[0m10:20:54.662182 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC47A55BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC47ABBDA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AC477971A0>]}
+[0m10:20:54.663177 [debug] [MainThread]: Flushing usage events
+[0m10:20:55.287917 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:20:57.508022 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027710C77C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027710C77770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027710C76AE0>]}
+
+
+============================== 10:20:57.512081 | d471916d-c2ef-4c08-9596-e1c877fd7b76 ==============================
+[0m10:20:57.512081 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:20:57.512081 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:20:57.512081 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m10:20:57.512081 [debug] [MainThread]: Command `dbt run` failed at 10:20:57.512081 after 0.11 seconds
+[0m10:20:57.512081 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027710CAED80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000277105CC800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027711143860>]}
+[0m10:20:57.512081 [debug] [MainThread]: Flushing usage events
+[0m10:20:58.154044 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:33:04.887918 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F6F7AD4C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F6FD206C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F6FD205EB0>]}
+
+
+============================== 10:33:04.887918 | 05b474c6-3353-48cf-a9d3-d8eaa72c75be ==============================
+[0m10:33:04.887918 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:33:04.887918 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio\\logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m10:33:04.887918 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m10:33:04.902456 [debug] [MainThread]: Command `dbt run` failed at 10:33:04.902456 after 0.11 seconds
+[0m10:33:04.902456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F6F7AD4C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F6FD6F5910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F6FCD1DD00>]}
+[0m10:33:04.903910 [debug] [MainThread]: Flushing usage events
+[0m10:33:05.669348 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:34:53.561317 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0E8FD59A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0E8FD77D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0E8FD6A20>]}
+
+
+============================== 10:34:53.561317 | df6100fd-e89b-48aa-b7b8-4c92caa74d2f ==============================
+[0m10:34:53.561317 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:34:53.561317 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'log_path': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio\\logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:34:53.576962 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m10:34:53.576962 [debug] [MainThread]: Command `dbt run` failed at 10:34:53.576962 after 0.14 seconds
+[0m10:34:53.576962 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0E5E1A4E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0E8F103B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0E936CD10>]}
+[0m10:34:53.576962 [debug] [MainThread]: Flushing usage events
+[0m10:34:54.359365 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:35:09.519353 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001637E6D6AE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001637E6D6B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001637E6D6AB0>]}
+
+
+============================== 10:35:09.519353 | ccfe1ed6-4135-4ff3-ada2-bbe24d14bd85 ==============================
+[0m10:35:09.519353 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:35:09.519353 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m10:35:09.570132 [info ] [MainThread]: dbt version: 1.9.2
+[0m10:35:09.570132 [info ] [MainThread]: python version: 3.12.1
+[0m10:35:09.570132 [info ] [MainThread]: python path: C:\Users\Bruno\AppData\Local\pypoetry\Cache\virtualenvs\projeto-atencao-basica-municipio-P9KnEv4C-py3.12\Scripts\python.exe
+[0m10:35:09.570132 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m10:35:09.588335 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m10:35:09.590332 [debug] [MainThread]: Command `dbt debug` failed at 10:35:09.589323 after 0.16 seconds
+[0m10:35:09.590332 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001637E810980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001637E8FB110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001637E83FD70>]}
+[0m10:35:09.591324 [debug] [MainThread]: Flushing usage events
+[0m10:35:10.199836 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:35:54.967748 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EE77CD40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EF152540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EC4E0200>]}
+
+
+============================== 10:35:54.967748 | f5761aa1-7edc-4d08-bf09-f37c8c2e4094 ==============================
+[0m10:35:54.967748 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:35:54.967748 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:35:55.018638 [info ] [MainThread]: dbt version: 1.9.2
+[0m10:35:55.018638 [info ] [MainThread]: python version: 3.12.1
+[0m10:35:55.018638 [info ] [MainThread]: python path: C:\Users\Bruno\AppData\Local\pypoetry\Cache\virtualenvs\projeto-atencao-basica-municipio-P9KnEv4C-py3.12\Scripts\python.exe
+[0m10:35:55.018638 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m10:35:55.036499 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m10:35:55.037501 [debug] [MainThread]: Command `dbt debug` failed at 10:35:55.037501 after 0.16 seconds
+[0m10:35:55.037501 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EEB0A8A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EF48AF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EF48AC00>]}
+[0m10:35:55.038498 [debug] [MainThread]: Flushing usage events
+[0m10:35:55.701450 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:36:21.700552 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019CB0599E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019CB03B9970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019CACB8FB60>]}
+
+
+============================== 10:36:21.700552 | 41d13eb8-ed51-4288-88c5-cc363db6d406 ==============================
+[0m10:36:21.700552 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:36:21.700552 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:36:21.765662 [info ] [MainThread]: dbt version: 1.9.2
+[0m10:36:21.765662 [info ] [MainThread]: python version: 3.12.1
+[0m10:36:21.765662 [info ] [MainThread]: python path: C:\Users\Bruno\AppData\Local\pypoetry\Cache\virtualenvs\projeto-atencao-basica-municipio-P9KnEv4C-py3.12\Scripts\python.exe
+[0m10:36:21.765662 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m10:36:21.765662 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m10:36:21.775598 [debug] [MainThread]: Command `dbt debug` failed at 10:36:21.765662 after 0.17 seconds
+[0m10:36:21.775811 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019CADBF6780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019CB0BBAE40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019CB0A45850>]}
+[0m10:36:21.775811 [debug] [MainThread]: Flushing usage events
+[0m10:36:22.366121 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:38:11.867975 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000116991502F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011693934C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000116991D8F20>]}
+
+
+============================== 10:38:11.867975 | a544ce60-ff27-416d-a421-24f4b72fa045 ==============================
+[0m10:38:11.867975 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:38:11.867975 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:38:11.867975 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Bruno\Desktop\projetos_engenharia\projeto_atencao_basica_municipio\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:38:11.883611 [debug] [MainThread]: Command `dbt run` failed at 10:38:11.867975 after 0.10 seconds
+[0m10:38:11.883611 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000116991BC6E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011699214AA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000011699217EF0>]}
+[0m10:38:11.883611 [debug] [MainThread]: Flushing usage events
+[0m10:38:12.506553 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:38:36.044755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A4707290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A1D228A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A4707D10>]}
+
+
+============================== 10:38:36.060373 | bbd2c56a-e83e-46f4-8993-1ac3ee387290 ==============================
+[0m10:38:36.060373 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:38:36.060373 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:38:36.115118 [info ] [MainThread]: dbt version: 1.9.2
+[0m10:38:36.116109 [info ] [MainThread]: python version: 3.12.1
+[0m10:38:36.117114 [info ] [MainThread]: python path: C:\Users\Bruno\AppData\Local\pypoetry\Cache\virtualenvs\projeto-atencao-basica-municipio-P9KnEv4C-py3.12\Scripts\python.exe
+[0m10:38:36.118118 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m10:38:36.122120 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m10:38:36.124120 [debug] [MainThread]: Command `dbt debug` failed at 10:38:36.124120 after 0.16 seconds
+[0m10:38:36.125133 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A44495B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A49C9880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219A210FE60>]}
+[0m10:38:36.125133 [debug] [MainThread]: Flushing usage events
+[0m10:38:36.792763 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:40:17.034419 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002800B964C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028010DBC3E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002801142FA10>]}
+
+
+============================== 10:40:17.034419 | dc694821-8d85-426a-badc-dd148fb80678 ==============================
+[0m10:40:17.034419 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:40:17.034419 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:40:17.084993 [info ] [MainThread]: dbt version: 1.9.2
+[0m10:40:17.084993 [info ] [MainThread]: python version: 3.12.1
+[0m10:40:17.084993 [info ] [MainThread]: python path: C:\Users\Bruno\AppData\Local\pypoetry\Cache\virtualenvs\projeto-atencao-basica-municipio-P9KnEv4C-py3.12\Scripts\python.exe
+[0m10:40:17.084993 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m10:40:17.101171 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m10:40:17.101171 [debug] [MainThread]: Command `dbt debug` failed at 10:40:17.101171 after 0.19 seconds
+[0m10:40:17.101171 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028011145AC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002801142FA10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280118331D0>]}
+[0m10:40:17.101171 [debug] [MainThread]: Flushing usage events
+[0m10:40:17.839112 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:44:31.451759 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E7FA52480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E0006DAF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E0006C3E0>]}
+
+
+============================== 10:44:31.451759 | ac9fda26-6c15-47cd-af63-221e591a63d6 ==============================
+[0m10:44:31.451759 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:44:31.451759 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:44:31.511483 [info ] [MainThread]: dbt version: 1.9.2
+[0m10:44:31.518227 [info ] [MainThread]: python version: 3.12.1
+[0m10:44:31.518751 [info ] [MainThread]: python path: C:\Users\Bruno\AppData\Local\pypoetry\Cache\virtualenvs\projeto-atencao-basica-municipio-P9KnEv4C-py3.12\Scripts\python.exe
+[0m10:44:31.518751 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m10:44:31.518751 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m10:44:31.518751 [debug] [MainThread]: Command `dbt debug` failed at 10:44:31.518751 after 0.17 seconds
+[0m10:44:31.518751 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E00565B80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E7FA52510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026E7FCBC680>]}
+[0m10:44:31.518751 [debug] [MainThread]: Flushing usage events
+[0m10:44:32.252567 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:47:08.014559 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB8ED4C260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB8C6C2C60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB8ED4D550>]}
+
+
+============================== 10:47:08.018561 | 3f1bdd2a-bf98-4eae-99cb-b23176fec6cb ==============================
+[0m10:47:08.018561 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:47:08.019553 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'c:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'c:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt ', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:47:08.115585 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3f1bdd2a-bf98-4eae-99cb-b23176fec6cb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB8EDB3290>]}
+[0m10:47:08.120640 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:47:08.136270 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:47:08.138437 [debug] [MainThread]: Command `cli deps` succeeded at 10:47:08.138437 after 0.26 seconds
+[0m10:47:08.138945 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB8F326C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB8EFE0B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DB8F243770>]}
+[0m10:47:08.138945 [debug] [MainThread]: Flushing usage events
+[0m10:47:08.984571 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:47:13.136759 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234659275C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023462F46750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023465925640>]}
+
+
+============================== 10:47:13.136759 | d8571a98-712f-4115-95a1-4a95950e2569 ==============================
+[0m10:47:13.136759 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:47:13.136759 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m10:47:13.196447 [info ] [MainThread]: dbt version: 1.9.2
+[0m10:47:13.197433 [info ] [MainThread]: python version: 3.12.1
+[0m10:47:13.197433 [info ] [MainThread]: python path: C:\Users\Bruno\AppData\Local\pypoetry\Cache\virtualenvs\projeto-atencao-basica-municipio-P9KnEv4C-py3.12\Scripts\python.exe
+[0m10:47:13.198433 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m10:47:13.203432 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m10:47:13.205766 [debug] [MainThread]: Command `dbt debug` failed at 10:47:13.205435 after 0.16 seconds
+[0m10:47:13.205766 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023465DC9A60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023465CB8650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023465F2AE40>]}
+[0m10:47:13.206780 [debug] [MainThread]: Flushing usage events
+[0m10:47:13.815428 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:55:02.965775 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EE2D4F860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EDF374C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EE19D04D0>]}
+
+
+============================== 10:55:02.965775 | 36e03fd9-6551-4790-8893-8d53c7599dde ==============================
+[0m10:55:02.965775 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:55:02.965775 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:55:03.026783 [info ] [MainThread]: dbt version: 1.9.2
+[0m10:55:03.027788 [info ] [MainThread]: python version: 3.12.1
+[0m10:55:03.028782 [info ] [MainThread]: python path: C:\Users\Bruno\AppData\Local\pypoetry\Cache\virtualenvs\projeto-atencao-basica-municipio-P9KnEv4C-py3.12\Scripts\python.exe
+[0m10:55:03.028782 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m10:55:03.033042 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m10:55:03.035043 [debug] [MainThread]: Command `dbt debug` failed at 10:55:03.034041 after 0.20 seconds
+[0m10:55:03.035043 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EE4A7B6E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EE19D04D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EE4F5D640>]}
+[0m10:55:03.036036 [debug] [MainThread]: Flushing usage events
+[0m10:55:03.711038 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:55:30.359966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F60BF26D20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F60BF26F30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F609D06840>]}
+
+
+============================== 10:55:30.363053 | 7b48eb90-104f-4a57-a51b-7e483fa2b45e ==============================
+[0m10:55:30.363053 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:55:30.364054 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:55:30.365053 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Bruno\Desktop\projetos_engenharia\projeto_atencao_basica_municipio\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:55:30.367053 [debug] [MainThread]: Command `dbt run` failed at 10:55:30.367053 after 0.10 seconds
+[0m10:55:30.367053 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F60BC10B60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F60AA2C8F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F60C724A40>]}
+[0m10:55:30.368055 [debug] [MainThread]: Flushing usage events
+[0m10:55:30.965291 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:56:12.092839 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CEBF6B5760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CEC2B78AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CEC2B79310>]}
+
+
+============================== 10:56:12.111716 | 7e79f836-f8a7-4d9f-b282-462940b6010c ==============================
+[0m10:56:12.111716 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:56:12.112716 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'c:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio\\logs', 'profiles_dir': 'c:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt ', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:56:12.210261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7e79f836-f8a7-4d9f-b282-462940b6010c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CEBF6A0BC0>]}
+[0m10:56:12.231699 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:56:12.233693 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:56:12.234701 [debug] [MainThread]: Command `cli deps` succeeded at 10:56:12.234701 after 0.26 seconds
+[0m10:56:12.235698 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CEC26DF170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CEC2E90470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CEC2E76300>]}
+[0m10:56:12.235698 [debug] [MainThread]: Flushing usage events
+[0m10:56:12.862919 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:56:17.679582 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E6D4B4C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E72750770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E72751490>]}
+
+
+============================== 10:56:17.679582 | ca82bb36-1b5b-4c42-9c7e-7c9cb2bb3460 ==============================
+[0m10:56:17.679582 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:56:17.679582 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:56:17.699423 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m10:56:17.701429 [debug] [MainThread]: Command `dbt run` failed at 10:56:17.701429 after 0.11 seconds
+[0m10:56:17.701429 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E72BE54C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E72ED8D40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019E72F04CE0>]}
+[0m10:56:17.702431 [debug] [MainThread]: Flushing usage events
+[0m10:56:18.339596 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:56:32.811399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002123A108740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000212397E7740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000212397E45C0>]}
+
+
+============================== 10:56:32.815388 | fc006c94-1de4-42ef-b812-21bb38d3e60b ==============================
+[0m10:56:32.815388 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:56:32.816400 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio\\logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:56:32.821409 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m10:56:32.822401 [debug] [MainThread]: Command `dbt run` failed at 10:56:32.822401 after 0.11 seconds
+[0m10:56:32.823687 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002123A04BB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021239871D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000212397B3110>]}
+[0m10:56:32.823910 [debug] [MainThread]: Flushing usage events
+[0m10:56:33.483306 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:59:34.877633 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025562169430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025562D87170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002555F9D0770>]}
+
+
+============================== 10:59:34.881629 | fdec5f39-84af-4179-b7f5-4956b98b2285 ==============================
+[0m10:59:34.881629 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:59:34.882630 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio\\logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:59:34.944119 [info ] [MainThread]: dbt version: 1.9.2
+[0m10:59:34.945120 [info ] [MainThread]: python version: 3.12.1
+[0m10:59:34.946127 [info ] [MainThread]: python path: C:\Users\Bruno\AppData\Local\pypoetry\Cache\virtualenvs\projeto-atencao-basica-municipio-P9KnEv4C-py3.12\Scripts\python.exe
+[0m10:59:34.947123 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m10:59:34.952130 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m10:59:34.954127 [debug] [MainThread]: Command `dbt debug` failed at 10:59:34.954127 after 0.17 seconds
+[0m10:59:34.955132 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025562F9D6A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255631CB800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025562EF8740>]}
+[0m10:59:34.956123 [debug] [MainThread]: Flushing usage events
+[0m10:59:35.614815 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:00:33.631353 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000222D8054C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000222DB469D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000222DB46B800>]}
+
+
+============================== 11:00:33.635365 | 2eb1c281-70f8-4335-a9c9-fd37b27781ff ==============================
+[0m11:00:33.635365 [info ] [MainThread]: Running with dbt=1.9.2
+[0m11:00:33.636354 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:00:33.677209 [info ] [MainThread]: dbt version: 1.9.2
+[0m11:00:33.677209 [info ] [MainThread]: python version: 3.12.1
+[0m11:00:33.692664 [info ] [MainThread]: python path: C:\Users\Bruno\AppData\Local\pypoetry\Cache\virtualenvs\projeto-atencao-basica-municipio-P9KnEv4C-py3.12\Scripts\python.exe
+[0m11:00:33.692664 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:00:33.692664 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m11:00:33.692664 [debug] [MainThread]: Command `dbt debug` failed at 11:00:33.692664 after 0.17 seconds
+[0m11:00:33.702192 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000222DDC1B8F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000222DDE88E60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000222DD8E6DE0>]}
+[0m11:00:33.702192 [debug] [MainThread]: Flushing usage events
+[0m11:00:34.294676 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:01:26.707849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F3B3CDB6E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F3B1196870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F3B3B7B020>]}
+
+
+============================== 11:01:26.707849 | 1a7df497-e226-476a-a5cf-a0ab0d3b3643 ==============================
+[0m11:01:26.707849 [info ] [MainThread]: Running with dbt=1.9.2
+[0m11:01:26.707849 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:01:26.771764 [info ] [MainThread]: dbt version: 1.9.2
+[0m11:01:26.772612 [info ] [MainThread]: python version: 3.12.1
+[0m11:01:26.773613 [info ] [MainThread]: python path: C:\Users\Bruno\AppData\Local\pypoetry\Cache\virtualenvs\projeto-atencao-basica-municipio-P9KnEv4C-py3.12\Scripts\python.exe
+[0m11:01:26.774614 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:01:26.779616 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m11:01:26.780616 [debug] [MainThread]: Command `dbt debug` failed at 11:01:26.780616 after 0.16 seconds
+[0m11:01:26.780616 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F3B3F0C410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F3B418A720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F3B4069EB0>]}
+[0m11:01:26.781614 [debug] [MainThread]: Flushing usage events
+[0m11:01:27.378171 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:03:25.476302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A041C8740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A0410B5C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A040DBD10>]}
+
+
+============================== 11:03:25.478657 | 101f30cd-d938-4d05-bbfa-11141503a029 ==============================
+[0m11:03:25.478657 [info ] [MainThread]: Running with dbt=1.9.2
+[0m11:03:25.478657 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:03:25.534168 [info ] [MainThread]: dbt version: 1.9.2
+[0m11:03:25.534168 [info ] [MainThread]: python version: 3.12.1
+[0m11:03:25.535158 [info ] [MainThread]: python path: C:\Users\Bruno\AppData\Local\pypoetry\Cache\virtualenvs\projeto-atencao-basica-municipio-P9KnEv4C-py3.12\Scripts\python.exe
+[0m11:03:25.535158 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:03:25.540149 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m11:03:25.541158 [debug] [MainThread]: Command `dbt debug` failed at 11:03:25.541158 after 0.20 seconds
+[0m11:03:25.541158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A04411E20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A04499EE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020A04543CE0>]}
+[0m11:03:25.542161 [debug] [MainThread]: Flushing usage events
+[0m11:03:26.197388 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:09:31.059706 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023576254C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002357927EAB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002357B3CA2A0>]}
+
+
+============================== 11:09:31.060221 | b6e4ba9a-e702-4eca-91e7-86a2e15354a3 ==============================
+[0m11:09:31.060221 [info ] [MainThread]: Running with dbt=1.9.2
+[0m11:09:31.060221 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:09:31.115905 [info ] [MainThread]: dbt version: 1.9.2
+[0m11:09:31.116895 [info ] [MainThread]: python version: 3.12.1
+[0m11:09:31.116895 [info ] [MainThread]: python path: C:\Users\Bruno\AppData\Local\pypoetry\Cache\virtualenvs\projeto-atencao-basica-municipio-P9KnEv4C-py3.12\Scripts\python.exe
+[0m11:09:31.117901 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:09:31.121905 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_NAME_PROD'
+[0m11:09:31.122893 [debug] [MainThread]: Command `dbt debug` failed at 11:09:31.122893 after 0.20 seconds
+[0m11:09:31.123903 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002357BD8ED20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002357BF8FB00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002357BBFA3F0>]}
+[0m11:09:31.123903 [debug] [MainThread]: Flushing usage events
+[0m11:09:31.876255 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:10:16.315609 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191AB1009B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191ACF8B230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191AD7AAA20>]}
+
+
+============================== 11:10:16.332997 | 8cb33229-261d-4a25-99a3-80778d92eb90 ==============================
+[0m11:10:16.332997 [info ] [MainThread]: Running with dbt=1.9.2
+[0m11:10:16.332997 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m11:10:16.385745 [info ] [MainThread]: dbt version: 1.9.2
+[0m11:10:16.386752 [info ] [MainThread]: python version: 3.12.1
+[0m11:10:16.387740 [info ] [MainThread]: python path: C:\Users\Bruno\AppData\Local\pypoetry\Cache\virtualenvs\projeto-atencao-basica-municipio-P9KnEv4C-py3.12\Scripts\python.exe
+[0m11:10:16.388748 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:10:16.392715 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_NAME_PROD'
+[0m11:10:16.394676 [debug] [MainThread]: Command `dbt debug` failed at 11:10:16.394676 after 0.16 seconds
+[0m11:10:16.395678 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191AB26FFE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191ADBE8CE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191AE023800>]}
+[0m11:10:16.395678 [debug] [MainThread]: Flushing usage events
+[0m11:10:17.109281 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:11:23.269771 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001715DDC9970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001715E162540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001715DBEA5A0>]}
+
+
+============================== 11:11:23.269771 | 11ecc6b0-6890-459b-84e4-07a112320030 ==============================
+[0m11:11:23.269771 [info ] [MainThread]: Running with dbt=1.9.2
+[0m11:11:23.269771 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Bruno\\Desktop\\projetos_engenharia\\projeto_atencao_basica_municipio', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:11:23.328685 [info ] [MainThread]: dbt version: 1.9.2
+[0m11:11:23.329721 [info ] [MainThread]: python version: 3.12.1
+[0m11:11:23.330690 [info ] [MainThread]: python path: C:\Users\Bruno\AppData\Local\pypoetry\Cache\virtualenvs\projeto-atencao-basica-municipio-P9KnEv4C-py3.12\Scripts\python.exe
+[0m11:11:23.330690 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:11:23.335685 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m11:11:23.337787 [debug] [MainThread]: Command `dbt debug` failed at 11:11:23.337787 after 0.17 seconds
+[0m11:11:23.337787 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001715D6D3B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001715E0CD670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001715E2D3980>]}
+[0m11:11:23.338800 [debug] [MainThread]: Flushing usage events
+[0m11:11:24.076884 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:12:16.949449 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024C7A800800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024C7B00B440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024C7A8025A0>]}
+
+
+============================== 11:12:16.949449 | 8c29f645-7340-48e6-9fb1-321cfb59ef39 ==============================
+[0m11:12:16.949449 [info ] [MainThread]: Running with dbt=1.9.2
+[0m11:12:16.949449 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '../', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m11:12:17.010011 [info ] [MainThread]: dbt version: 1.9.2
+[0m11:12:17.011004 [info ] [MainThread]: python version: 3.12.1
+[0m11:12:17.012005 [info ] [MainThread]: python path: C:\Users\Bruno\AppData\Local\pypoetry\Cache\virtualenvs\projeto-atencao-basica-municipio-P9KnEv4C-py3.12\Scripts\python.exe
+[0m11:12:17.012005 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:12:17.013010 [info ] [MainThread]: Using profiles dir at ../
+[0m11:12:17.014011 [info ] [MainThread]: Using profiles.yml file at ../profiles.yml
+[0m11:12:17.014011 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Bruno\Desktop\projetos_engenharia\projeto_atencao_basica_municipio\dbt_project.yml
+[0m11:12:17.015012 [info ] [MainThread]: Configuration:
+[0m11:12:17.016005 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m11:12:17.017003 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:12:17.017003 [info ] [MainThread]: Required dependencies:
+[0m11:12:17.019006 [debug] [MainThread]: Executing "git --help"
+[0m11:12:17.036422 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:12:17.036422 [debug] [MainThread]: STDERR: "b''"
+[0m11:12:17.037422 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:12:17.038483 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m11:12:17.039426 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m11:12:17.039957 [info ] [MainThread]: dbt looked for a profiles.yml file in ../profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m11:12:17.040721 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Bruno\Desktop\projetos_engenharia\projeto_atencao_basica_municipio\dbt_project.yml> not found
+
+[0m11:12:17.042723 [debug] [MainThread]: Command `dbt debug` failed at 11:12:17.042723 after 0.18 seconds
+[0m11:12:17.042723 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024C7ABAFF80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024C7AAB8470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024C784C6420>]}
+[0m11:12:17.043720 [debug] [MainThread]: Flushing usage events
+[0m11:12:17.639410 [debug] [MainThread]: An error was encountered while trying to flush usage events
